@@ -1,0 +1,64 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environments
+venv/
+env/
+.venv/
+.env/
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# Google Drive Sync Artifacts
+*.gdoc
+*.gsheet
+*.gslides
+*.gdraw
+~$*
+.~lock.*
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+
+# Claude Code
+.claude/
+
+# Original course content (not our code)
+CohenX_course_content/
+
+# PyTorch model files (large)
+*.pt
+*.pth
+*.onnx
+
+# Data files (downloaded at runtime)
+*.csv
+*.h5
+*.hdf5
+sample_data/
+cifar10/
+
+# Misc
+*.log
+*.tmp
